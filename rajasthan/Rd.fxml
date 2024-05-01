@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainBorderPane" prefHeight="800.0" prefWidth="1540.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rajasthan.Ricoman">
+	<!-- TODO Add Nodes -->
+       <top>
+       <AnchorPane layoutX="367.0" layoutY="45.0" prefHeight="126.0" prefWidth="1540.0" styleClass="vbox_background_center5" stylesheets="@../Image/loginStle.css">
+        <children>
+            <Label layoutX="160.0" layoutY="14.0" prefHeight="54.0" prefWidth="287.0" text="Pack Your Bags " textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>		
+      		
+      	<Button layoutX="176.0" layoutY="84.0" onAction="#switchscene6" prefHeight="60.0" prefWidth="197.0" styleClass="vbox_background_center10" text="Dashboard" textFill="WHITE">
+                  <graphic>
+				<ImageView>
+					<Image url="@../Image/Home.gif" />
+				</ImageView>
+			</graphic>
+           
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+      
+            	</Button>
+      			
+            			<Button layoutX="355.0" layoutY="84.0" onAction="#switchscene8" prefHeight="60.0" prefWidth="206.0" styleClass="vbox_background_center10" text="Book Tickets" textFill="WHITE">
+                  
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                    <graphic>
+				<ImageView>
+					<Image url="@../Image/booking.png" />
+				</ImageView>
+			</graphic>
+           
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+      		
+            			</Button>
+      			
+            			
+      			<Button layoutX="561.0" layoutY="84.0" onAction="#switchscene7" prefHeight="60.0" prefWidth="245.0" styleClass="vbox_background_center10" text="Tourist Attraction" textFill="WHITE">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                  <graphic>
+				<ImageView>
+					<Image url="@../Image/touri.png" />
+				</ImageView>
+			</graphic>
+           
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+      		</Button>
+      		<Button contentDisplay="TOP" layoutX="806.0" layoutY="86.0" mnemonicParsing="false" onAction="#switchscene5" prefHeight="57.0" prefWidth="202.0" styleClass="vbox_background_center10" text="About us" textFill="WHITE">
+                                             	      <cursor>
+            							<Cursor fx:constant="HAND" />
+       							  </cursor>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+                  </Button>
+				<ImageView fitHeight="45.0" fitWidth="48.0" layoutX="806.0" layoutY="93.0">
+					<Image url="@../Image/aboutus.png" />
+				</ImageView>
+	    <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="1486.0" layoutY="4.0" onMousePressed="#onMousePressedClose" pickOnBounds="true" preserveRatio="true" x="10.0" y="10.0" AnchorPane.leftAnchor="1496.0" AnchorPane.topAnchor="14.0">
+         <image>
+            <Image url="@../images/icon_shutdown.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ImageView>
+  
+            </children>
+            </AnchorPane>
+       </top>
+   		
+		<left>
+
+   <AnchorPane prefHeight="698.0" prefWidth="1542.0" style="-fx-background-color: #d4d6fa;">
+ <TextArea editable="false" layoutX="160.0" layoutY="61.0" prefHeight="636.0" prefWidth="1134.0" style="-fx-border-radius: 20 20 20 20;" text="                                                                                      City Palace Udaipur&#10;&#10;Fast Facts&#10;Opening Time&#10;&#10;7AM – 11PM&#10;Entry Fees&#10;&#10;Adult- Rs. 30&#10;Child- Rs. 15&#10;Camera/Video Fee- Rs. 200&#10;Crystal Gallery:&#10;Adult- Rs. 500&#10;Child- Rs. 300&#10;*no additional charge for visiting City Palace Museum&#10;&#10;Location&#10;&#10;Udaipur, Rajasthan&#10;Best Time to visit&#10;&#10;Between the months of October and March&#10;&#10;Placed in the middle of Aravalli ranges, Udaipur offers its visitors immense beauty of three interconnected lakes and the elevated hills. The city boasts of several attractions including the very popular, City Palace, which exhibits the rich display of artifacts of medieval period and European era. The City palace provides a spectacular view of Lake Pichola which is one of the largest and the oldest lakes in Udaipur. The complex designs made on tough grounds symbolizes the roughness and compassion of ancient rulers. The grand palace reveals a lot about the celebration and commemoration of the people and the notable strength of ordeal.&#10;&#10;History and Legend&#10;Settled on the east bank of Lake Pichola, the City Palace in Udaipur was built around 400 years back. It is regarded to be the largest royal complex in the state of Rajasthan. The palace was put up during the time when the city of Udaipur was established, by Maharana Uday Singh and his successors in 1559. The Maharanas used to live in the palace and administer their kingdom.&#10;&#10;Legends say that year before when the Maharana Uday Singh was on a hunting trail on the hills of Udaipur, he met a hermit who was meditating on the hill top. He advised Maharana to construct a palace at that very place where he was meditating. And so, the palace complex was built here on the hill top offering an awe-inspiring view of the city.  &#10;&#10;&#10;Structures within the City Palace complex&#10;The City Palace complex has a number of structures that boast of splendid architecture, making it a must visit tourist destination for history lovers.&#10;&#10;The structures within the complex are:&#10;&#10;1. Gateways&#10;Also called as Pols, Gateways are the entry points to the palace complex. There are three major gateways to the complex. 'Badi Pol' (Great Gate) is the main entry point to the complex that leads to the first courtyard. After crossing the ‘Badi Pol’, one encounters a triple arched gate called as ‘Tripola’, the northern entry to the complex.&#10;&#10;The two gates - 'Badi Pol' and ‘Tripola’ are aligned beautifully with eight marble arches or Toranas. According to the legends, the Maharanas used to weigh themselves against gold and silver here, which was later distributed among the local people.&#10;&#10;&#10;Once through the ‘Tripolia’ gate, an arena near the Toran Pol is encountered where elephant fights were held in the past. These elephants were later chosen for war campaigns according to their prowess. Across Tripolia gate there is another gate known as ‘Elephant gate’ or the ‘Hathi Pol’.&#10;&#10;2. Amar Vilas&#10;Located at the highest point of the City Palace, Amar Vilas is an elevated garden that serves as the topmost court within the complex. Built in Mughal style architecture, Amar Vilas is the entry point to Badi Mahal, another alluring structure within the complex.&#10;&#10;Adorned with beautiful hanging gardens, fountains, towers and terraces, Amar Vilas served as a leisure home for the Maharanas.&#10;&#10;3. Badi Mahal&#10;Also known as Great Palace/Garden Palace, Badi Mahal is the main palace in the complex that sits magnificently on a 89 ft high rock formation. Badi Mahal houses a swimming pool which was used for Holi celebrations in the past, and a hall that exhibits miniature paintings of 18th and 19th centuries.&#10;&#10;The beautiful wall paintings of Jag Mandir, Lord Vishnu of Jagdish temple, and elephant fight scenes are some of the other attractions here.&#10;&#10;4. Bhim Vilas&#10;Bhim Vilas is another place worth visiting for art lovers. With a gallery consisting of miniature paintings of Lord Krishna and Radha illustrating their real life stories, Bhim Vilas is sure to mesmerise one and all with its skilled artwork.&#10;&#10;5. Chini Chitrashala&#10;The Chini Chitrashala is another place worth visiting for the vast collection of Chinese and Dutch ornamental tiles that are pretty attractive.&#10;&#10;6. Choti Chitrashala&#10;As the name suggests, the 'Residence of Little Pictures' built in the early 19th century is home to a small gallery consisting of pictures of peacocks.&#10;&#10;7. Dilkusha Mahal&#10;Meaning the Palace of Joy’, Dilkusha Mahal was constructed in the year 1620. The beautiful murals and wall paintings in the complex are worth admiring for its artistic skills.&#10;&#10;8. Durbar hall&#10;Serving as a venue for official functions, Durbar Hall was newer addition to the palace complex. Built in the year of 1909 during the rule of Maharana Fateh Singh, the hall is adorned with large chandeliers that add to the grandeur of this place.&#10;&#10;Durbar hall is a part of Fateh Prakash Palace and displays weapons and portraits of the Maharanas. Durbar Hall was earlier called as Minto hall, named after the Viceroy of India, Lord Minto who laid the foundation stone for this hall.&#10;&#10;9. Fateh Prakash Palace&#10;Now a luxury hotel, Fateh Prakash Palace has an interesting collection of crystal chairs, dressing tables, sofas, tables, chairs, beds, crockery, table fountains along with a jewel studded carpet. These items were ordered by Maharana Sajjan Singh in the year 1877. However, he died before its arrival and the package remained unopened for nearly 110 years.&#10;&#10;10. Krishna Vilas&#10;Another compelling chamber for art lovers, Krishna Vilas has an admirable collection of miniature paintings displaying various events during the rule of Maharanas such as royal procession, festivals and games held during their reign.&#10;&#10;11. Laxmi Vilas chowk&#10;An art gallery displaying a unique collection of Mewar paintings, Laxmi Vilas chowk is worth admiring for its rare collections.&#10;&#10;12. Manak Mahal&#10;Meaning Ruby Palace, Manak Mahal is one of the most beautiful structures in City Palace. Once an enclosure for formal audience of Mewar kingdom, Manak Mahal is lead from the Manak chowk.&#10;&#10;A raised alcove with mirror glass work inside is one of the most alluring sights here. A Sun face emblem on the facade of Manak Chowk can be seen here representing the Sun god worshipped by the Maharanas.&#10;&#10;13. Mor Chowk&#10;A part of the inner courts of the palace, Mor Chowk or Peacock square was built during the rule of Maharana Sajjan Singh, about 200 years later than the initial establishment of the palace. Three peacocks depicting the three seasons - summer, winter and monsoon magnificently adorn the walls of the Mor Chowk.&#10;&#10;Decorated with glass and mirror mosaics, the three peacocks in Mor Chowk are crafted with around 5000 glass pieces glowing brightly in blue, green and gold colors.&#10;&#10;&#10;The pictures of Lord Krishna in the apartments in front of the Chowk are worth admiring. The upper level consists of a balcony surrounded with colored glass inserts and an adjacent chamber known as Kanch-ki-Burj consists of mosaics of mirrors decorating the walls. There is a small court inside the chowk known as Badi Charur Chowk which is used for private purpose.&#10;&#10;14. Rang Bhavan&#10;Once a place where royal treasure was kept is now home to the temples of Lord Krishna, Meera Bai and Lord Shiva.&#10;&#10;15. Sheesh Mahal&#10;The Palace of Mirrors and glasses is another beautiful structure in the complex built by Maharana Pratap for his wife Maharani Ajabde in the year of 1716.&#10;&#10;16. Museum&#10;A part of City Palace and Zenana Mahal or the Ladies Chamber was converted to a museum in the year of 1974 which is now open to the public.&#10;&#10;In popular Culture&#10;City Palace has found its place in many movies such as the James Bond film Octopussy and the Bollywood film Goliyon Ki Raasleela Ram-Leela.&#10;&#10;Manak Chowk served as a venue for annual Maharana Mewar Foundation Awards.&#10;&#10;Best Time to visit City Palace&#10;In order to avoid the crowds and the scorching heat, it is advisable to visit the City Palace during the morning and evening hours. The winter season from October to March is considered as the best time to visit City Palace as the weather is quite enjoyable during this time. Check our custom designed all inclusive Udaipur tour packages here..&#10;&#10;How to Reach City Palace&#10;Being a popular tourist attraction, a number of Autos, taxis, tongas and city buses ply from various parts of the city to the palace complex. Ferry rides from City Palace to Jagmandir can also be availed at a price of Rs. 400 per person. You can also book a private cab from top car rental companies in Udaipur to explore City Palace and other nearby places.&#10;&#10;Entry Fees and Timings of City Palace&#10;The entry fee to the City Palace is Rs. 30 for Adults and Rs. 15 for children. Rs. 200 is charged for Still Camera and Rs. 500 is charged for Video Camera.&#10;&#10;City Palace Timings are from 9:30 am in the morning to 5:30 pm in the evening. It is open on all days of the week.&#10;&#10;Entry Fees and Timings of City Palace Museum&#10;The entry fee to the City Palace Museum is Rs. 250 for Adults (Above 18 yrs age) and Rs. 100 for Children (5 to 18 yrs age). There is no entry fee for children below 5 years of age. The camera fee is Rs. 250. For students coming in groups, the entry fee is Rs. 100 per student.&#10;&#10;City Palace museum is open from 9:30 am to 5:30 pm on all days of the week.&#10;&#10;Guides at City Palace&#10;Tour Guides are available at the City Palace complex and a Hindi speaking guide will charge around Rs. 300 at the complex. The guides at the museum charge around Rs. 200. Audio guides are also available here.&#10;&#10;A must visit tourist attraction in the City of lakes, City Palace is sure to mesmerise everyone with its splending architecture and great history. A trip to Udaipur is definitely incomplete without a visit to the magnificent City Palace. We at Udaipur Tourism, a division of Holidays DNA make sure you have a memorable trip to this wonderful city and create long lasting memories. For more details about various packages, places fill the Contact Us form and we will get back to you&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;">
+      <font>
+         <Font name="Ebrima" size="21.0" />
+      </font>
+            <effect>
+               <ColorAdjust brightness="-0.04" contrast="-0.19" hue="-0.75" saturation="0.12" />
+            </effect>
+   </TextArea>            <AnchorPane layoutX="160.0" layoutY="22.0" prefHeight="38.0" prefWidth="1136.0" style="-fx-background-color: #8e92e8; -fx-background-radius: 15 15 15 15;">
+                        <children>
+                                 <Button contentDisplay="TOP" layoutX="181.0" layoutY="4.0" mnemonicParsing="false" onAction="#switchscene2" prefHeight="26.0" prefWidth="82.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="Details" textFill="WHITE">
+                                                            	      <cursor>
+                           							<Cursor fx:constant="HAND" />
+                      							  </cursor>
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                                 </Button>
+                                 <Button contentDisplay="TOP" layoutX="90.0" layoutY="4.0" mnemonicParsing="false" onAction="#switchscene1" prefHeight="26.0" prefWidth="89.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="Images" textFill="WHITE">
+                                                            	      <cursor>
+                           							<Cursor fx:constant="HAND" />
+                      							  </cursor>
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                                 </Button>
+                                 <Button contentDisplay="TOP" layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#switchscene3" prefHeight="26.0" prefWidth="74.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="Home" textFill="#fff4f4">
+                                                            	      <cursor>
+                           							<Cursor fx:constant="HAND" />
+                      							  </cursor>
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                                 </Button>
+                     			
+                                             			
+                     			<Button contentDisplay="TOP" layoutX="265.0" layoutY="4.0" mnemonicParsing="false" onAction="#switchscene4" prefHeight="26.0" prefWidth="120.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="How to reach" textFill="#f4f2f2" wrapText="true">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                     			</Button>
+                        </children>
+                     </AnchorPane></AnchorPane>
+     </left>
+   
+            </BorderPane>
