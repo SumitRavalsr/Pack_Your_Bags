@@ -1,0 +1,186 @@
+.vbox_background_center{
+	
+	-fx-background-image:url("f2.jpg");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+.vbox_background_right{
+	
+	-fx-background-image:url("b2.jpg");
+	-fx-background-size:100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:right ;
+	
+}
+.vbox_background_toplogo{
+	
+	-fx-background-image:url("b4.jpg");
+	-fx-background-size:100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:center ;
+		
+}
+
+.vbox_background_center2{
+	
+	-fx-background-image:url("Backg.jpg");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+.vbox_background_center4{
+	
+	-fx-background-image:url("KcD.gif");
+		-fx-background-size: 100% 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+.vbox_background_center5{
+	
+	/*-fx-background-image:url("text.gif");*/
+	-fx-background-repeat:no-repeat;
+	-fx-background-color:#1a3c87;
+	-fx-background-position: center;
+	
+}
+.vbox_background_center6{
+	
+	-fx-graphic:url("s1.png");
+	-fx-rotate: 45;
+}
+
+.vbox_background_center7{
+	
+	-fx-background-image:url("hero.png");
+		-fx-background-size: 100% 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+.vbox_background_center8{
+	
+	-fx-background-image:url("qw.jpeg");
+		-fx-background-size: 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+
+.vbox_background_center9{
+	
+	-fx-background-image:url("as.jpeg");
+		-fx-background-size: 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+.vbox_background_center10{
+	/*-fx-background-color: linear-gradient(to bottom left, #A868A0, #2D75E8);*/
+	-fx-background-position: center;
+	-fx-background-color:#1a3c87;
+}
+.vbox_background_center11{
+	/*-fx-background-color: linear-gradient(to bottom left, #A868A0, #2D75E8);*/
+	
+	-fx-background-color:#d4d6fa;
+}
+	
+
+.vbox_background_center12{
+	
+	-fx-background-image:url("p1.jpg");
+		-fx-background-size: 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	
+.vbox_background_center13{
+	
+	-fx-background-image:url("p2.jpg");
+		-fx-background-size: 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	
+.vbox_background_center14{
+	
+	-fx-background-image:url("p3.jpg");
+		-fx-background-size: 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	
+.vbox_background_center15{
+	
+	-fx-background-image:url("p4.jpg");
+		-fx-background-size: 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	
+	.vbox_background_center16{
+	
+	-fx-background-image:url("sa1.jpg");
+		-fx-background-size: 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}.vbox_background_center17{
+	
+	-fx-background-image:url("sa2.jpg");
+		-fx-background-size: 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+.vbox_background_center18{
+	
+	-fx-background-image:url("ss.png");
+		-fx-background-size: 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+.vbox_background_center19{
+	
+	-fx-background-image:url("kash.gif");
+		-fx-background-size: 100% 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+.vbox_background_center20{
+	
+	-fx-background-image:url("s1.jpg");
+		-fx-background-size: 100% 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
