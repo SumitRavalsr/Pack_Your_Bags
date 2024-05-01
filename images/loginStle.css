@@ -1,0 +1,214 @@
+
+.vbox_background_center{
+	
+	-fx-background-image:url("hero.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+.vbox_background_right{
+		-fx-background-image:url("login.png");
+	-fx-background-size:100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:center ;
+}
+.vbox_background_toplogo{
+	
+	-fx-background-image:url("b4.jpg");
+	-fx-background-size:100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position:center ;
+		
+}
+
+.vbox_background_center2{
+	
+	-fx-background-image:url("s.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+.vbox_background_center4{
+	
+	-fx-background-image:url("pa.gif");
+		-fx-background-size: 100% 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+.vbox_background_center5{
+	
+	-fx-background-image:url("pyb.png");
+		-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+.vbox_background_center6{
+	
+	-fx-graphic:url("s1.png");
+	-fx-rotate: 45;
+}
+
+.vbox_background_center7{
+	
+	-fx-background-image:url("xz.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+.vbox_background_center8{
+	
+	-fx-background-image:url("px.png");
+		-fx-background-size: 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+
+.vbox_background_center9{
+	
+	-fx-background-image:url("Sign.png");
+		-fx-background-size: 100%;
+	
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+.vbox_background_center10{
+	-fx-background-image:url("ff.jpg");
+		-fx-background-size: 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+}
+
+.vbox_background_center11{
+	
+	-fx-background-image:url("pass.jpg");
+		-fx-background-size: 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	
+.vbox_background_center12{
+	
+	-fx-background-image:url("Fs.png");
+		-fx-background-size: 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	.vbox_background_center13{
+	
+	-fx-background-image:url("bs.gif");
+		-fx-background-size: 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+	.vbox_background_center14{
+	
+	-fx-background-image:url("2.png");
+		-fx-background-size: 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	.vbox_background_center15{
+	
+	-fx-background-image:url("1a.jpg");
+		-fx-background-size: 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	.vbox_background_center16{
+	
+	-fx-background-image:url("2a.jpg");
+		-fx-background-size: 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}	.vbox_background_center17{
+	
+	-fx-background-image:url("3a.jpg");
+		-fx-background-size: 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}	.vbox_background_center18{
+	
+	-fx-background-image:url("4a.jpg");
+		-fx-background-size: 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	.vbox_background_center19{
+	
+	-fx-background-image:url("l3.jpg");
+		-fx-background-size: 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	.vbox_background_center20{
+	
+	-fx-background-image:url("l1.png");
+		-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	.vbox_background_center21{
+	
+	-fx-background-image:url("l2.jpg");
+		-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	.vbox_background_center22{
+	
+	-fx-background-image:url("l4.jpg");
+		-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+	.vbox_background_center23{
+	
+	-fx-background-image:url("l6.png");
+		-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+	.vbox_background_center24{
+	
+	-fx-background-image:url("l7.jpg");
+		-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
+
+	.vbox_background_center25{
+	
+	-fx-background-image:url("user2.png");
+		-fx-background-size: 100% 100%;
+	-fx-background-repeat:no-repeat;
+	-fx-background-position: center;
+	
+}
