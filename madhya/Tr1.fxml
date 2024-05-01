@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAPane" prefHeight="815" prefWidth="1540.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="madhya.Ricoman">
+	<!-- TODO Add Nodes -->
+	<AnchorPane prefHeight="126.0" prefWidth="1540.0" styleClass="vbox_background_center5" stylesheets="@../Image/loginStle.css">
+        <children>
+            <Label layoutX="160.0" layoutY="14.0" prefHeight="54.0" prefWidth="287.0" text="Pack Your Bags " textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>		
+      		
+      	<Button layoutX="176.0" layoutY="84.0" onAction="#switchscene6" prefHeight="60.0" prefWidth="197.0" styleClass="vbox_background_center10" text="Dashboard" textFill="WHITE">
+                  <graphic>
+				<ImageView>
+					<Image url="@../Image/Home.gif" />
+				</ImageView>
+			</graphic>
+           
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+      
+            	</Button>
+      			
+            			<Button layoutX="355.0" layoutY="84.0" onAction="#switchscene7" prefHeight="60.0" prefWidth="206.0" styleClass="vbox_background_center10" text="Book Tickets" textFill="WHITE">
+                  
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                    <graphic>
+				<ImageView>
+					<Image url="@../Image/booking.png" />
+				</ImageView>
+			</graphic>
+           
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+      		
+            			</Button>
+      			
+            			
+      			<Button layoutX="561.0" layoutY="84.0" onAction="#switchscene7" prefHeight="60.0" prefWidth="245.0" styleClass="vbox_background_center10" text="Tourist Attraction" textFill="WHITE">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                  <graphic>
+				<ImageView>
+					<Image url="@../Image/touri.png" />
+				</ImageView>
+			</graphic>
+           
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+      		</Button>
+      		<Button contentDisplay="TOP" layoutX="806.0" layoutY="86.0" mnemonicParsing="false" onAction="#switchscene5" prefHeight="57.0" prefWidth="202.0" styleClass="vbox_background_center10" text="About us" textFill="WHITE">
+                                             	      <cursor>
+            							<Cursor fx:constant="HAND" />
+       							  </cursor>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+                  </Button>
+				<ImageView fitHeight="45.0" fitWidth="48.0" layoutX="806.0" layoutY="93.0">
+					<Image url="@../Image/aboutus.png" />
+				</ImageView>
+				    
+	</children>
+	</AnchorPane>
+   <AnchorPane layoutY="144.0" prefHeight="671.0" prefWidth="1540.0" style="-fx-background-color: #d4d6fa;">
+      <children>
+         <Label layoutX="683.0" layoutY="66.0" text="Transicitions">
+            <font>
+               <Font name="System Bold" size="41.0" />
+            </font>
+         </Label>
+      	
+      <Accordion layoutX="394.0" layoutY="196.0" prefHeight="390.0" prefWidth="776.0">
+      		<panes>
+      				<TitledPane onMouseClicked="#switchscene5" text="UPI id">
+                  <content>
+                     <AnchorPane prefHeight="270.0" prefWidth="750.0">
+                        <children>
+                           <Label layoutX="54.0" layoutY="40.0" text="Enter UPI id">
+                              <font>
+                                 <Font name="System Bold" size="21.0" />
+                              </font>
+                           </Label>
+                           <Label layoutX="54.0" layoutY="125.0" text="Enter Password">
+                              <font>
+                                 <Font name="System Bold" size="21.0" />
+                              </font>
+                           </Label>
+                           <TextField fx:id="t11" layoutX="243.0" layoutY="40.0" onAction="#pay1" prefHeight="31.0" prefWidth="471.0" promptText="UPI id" />
+                           <TextField fx:id="t12" layoutX="243.0" layoutY="125.0" prefHeight="31.0" prefWidth="471.0" promptText="Password" />
+                           
+         <Button fx:id="t13" layoutX="336.0" layoutY="223.0" mnemonicParsing="false" onAction="#pay1" prefHeight="42.0" prefWidth="103.0" text="Pay">
+            <font>
+               <Font name="System Bold Italic" size="19.0" />
+            </font>
+         </Button>
+                        </children>
+                     </AnchorPane>
+                  </content>
+      				</TitledPane> 
+      				<TitledPane text="Debit Card/Credit Card">
+      			 <content>
+                     <AnchorPane prefHeight="270.0" prefWidth="750.0">
+                        <children>
+                           <Label layoutX="54.0" layoutY="40.0" text="Account Number">
+                              <font>
+                                 <Font name="System Bold" size="21.0" />
+                              </font>
+                           </Label>
+                           <Label layoutX="54.0" layoutY="110.0" text="CVV">
+                              <font>
+                                 <Font name="System Bold" size="21.0" />
+                              </font>
+                           </Label>
+                           <TextField fx:id="t21" layoutX="243.0" layoutY="40.0" prefHeight="31.0" prefWidth="471.0" promptText="Enter Account Number" />
+                           <TextField fx:id="t22" layoutX="242.0" layoutY="110.0" prefHeight="31.0" prefWidth="474.0" promptText="Enter 3 digit CVV" />
+                           <Label layoutX="54.0" layoutY="184.0" text="Expire Date">
+                              <font>
+                                 <Font name="System Bold" size="21.0" />
+                              </font>
+                           </Label>
+                           <DatePicker fx:id="t23" layoutX="243.0" layoutY="184.0" />
+                           
+         <Button fx:id="t24" layoutX="352.0" layoutY="256.0" mnemonicParsing="false" onAction="#pay2" prefHeight="42.0" prefWidth="103.0" text="Pay">
+            <font>
+               <Font name="System Bold Italic" size="19.0" />
+            </font>
+         </Button>
+                        </children>
+                     </AnchorPane>
+                  </content>
+      				</TitledPane> 
+      				<TitledPane text="Wallet">
+                  <content>                 
+                     <AnchorPane prefHeight="270.0" prefWidth="750.0">
+                        <children>
+                           <Label layoutX="54.0" layoutY="40.0" text="Mobile Number">
+                              <font>
+                                 <Font name="System Bold" size="21.0" />
+                              </font>
+                           </Label>
+                           <Label layoutX="57.0" layoutY="181.0" text="Enter Password">
+                              <font>
+                                 <Font name="System Bold" size="21.0" />
+                              </font>
+                           </Label>
+                           <TextField fx:id="t31" layoutX="243.0" layoutY="40.0" prefHeight="31.0" prefWidth="471.0" promptText="Mobile Number" />
+                           <TextField fx:id="t33" layoutX="243.0" layoutY="181.0" prefHeight="31.0" prefWidth="474.0" promptText="Password" />
+                           
+	<ChoiceBox fx:id="t32" layoutX="243.0" layoutY="107.0">
+		<items>
+			<FXCollections fx:factory="observableArrayList">
+				<String fx:value="Amazon Pay" />
+				<String fx:value="Google Pay" />
+				<String fx:value="Paytm" />
+			</FXCollections>
+		</items>
+	</ChoiceBox>
+                           <Label layoutX="54.0" layoutY="107.0" text="Choose Wallet">
+                              <font>
+                                 <Font name="System Bold" size="21.0" />
+                              </font>
+                           </Label>
+                           
+         <Button fx:id="t34" layoutX="319.0" layoutY="240.0" mnemonicParsing="false" onAction="#pay3" prefHeight="42.0" prefWidth="103.0" text="Pay">
+            <font>
+               <Font name="System Bold Italic" size="19.0" />
+            </font>
+         </Button>
+                        </children>
+                     </AnchorPane>
+                  </content>
+      		</TitledPane> 
+      				
+      	  </panes>
+      	 </Accordion>
+         <Label fx:id="labelname" layoutX="394.0" layoutY="148.0" prefHeight="28.0" prefWidth="384.0" text="Welcome To Online Transicitions Boot!! ">
+            <font>
+               <Font name="System Bold" size="19.0" />
+            </font>
+         </Label>
+      </children>
+      </AnchorPane>
+	     <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="1486.0" layoutY="4.0" onMousePressed="#onMousePressedClose" pickOnBounds="true" preserveRatio="true" x="10.0" y="10.0" AnchorPane.leftAnchor="1496.0" AnchorPane.topAnchor="14.0">
+         <image>
+            <Image url="@../images/icon_shutdown.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ImageView>
+  
+</AnchorPane>
