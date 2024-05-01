@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.collections.*?>
+<?import java.lang.*?>
+
+
+
+<AnchorPane fx:id="signup_form" prefHeight="815.0" prefWidth="1540.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DBUnits">
+   <children>
+   
+      <AnchorPane layoutX="956.0" layoutY="1.0" prefHeight="815.0" prefWidth="584.0" styleClass="vbox_background_center9" stylesheets="@../Images/loginStle.css" />
+      <AnchorPane prefHeight="815.0" prefWidth="911.0" style="-fx-background-color: #089696; " />
+        <AnchorPane layoutX="376.0" layoutY="100.0" prefHeight="167.0" prefWidth="160.0" styleClass="vbox_background_center2" stylesheets="@../Images/loginStle.css" />
+         <GridPane alignment="center" layoutX="200.0" layoutY="300.0" hgap="10" vgap="29" >
+      <Label text="Enter Full Name :"  GridPane.rowIndex="0" GridPane.columnIndex="0" textFill="white" WrapText="true">
+				<font>
+					<Font name="HP Simplified Jpan Regular" size="20"/>
+				</font>
+		</Label>
+		
+		     <TextField layoutX="20.0" fx:id="signup_username" GridPane.rowIndex="0" GridPane.columnIndex="1"  prefHeight="31.0" prefWidth="300.0" promptText="UserName" style="-fx-background-color:white; -fx-border-color:blue; -fx-border-width:0px 0px 5px 0px">
+            			<tooltip>
+								<Tooltip text="In UserName First Letter must be Capital"/>
+						</tooltip>
+					 <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+			</TextField>
+			
+				  <Label text="Select Gender :" GridPane.rowIndex="1" GridPane.columnIndex="0" textFill="white" WrapText="true">
+						<font>
+							<Font name="HP Simplified Jpan Regular" size="20"/>
+						</font>
+					</Label>
+		
+			<HBox GridPane.rowIndex="1" GridPane.columnIndex="1">
+		
+				<fx:define>
+					<ToggleGroup fx:id="colorToggleGroup"></ToggleGroup>
+				</fx:define>
+				<RadioButton fx:id="r1" layoutX="20.0" text="Male  " textFill="white" toggleGroup="$colorToggleGroup" >	 
+				<cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor> 
+                     </RadioButton>
+				
+				<RadioButton fx:id="r2" text="Female  " textFill="white" toggleGroup="$colorToggleGroup">
+				<cursor>
+				        <Cursor fx:constant="HAND" />
+                     </cursor> 
+                     </RadioButton>
+				
+				<RadioButton fx:id="r3" text="Other" textFill="white" toggleGroup="$colorToggleGroup">
+				<cursor>
+				        <Cursor fx:constant="HAND" />
+                     </cursor> 
+                     </RadioButton>
+				
+			</HBox>
+			
+					  <Label text="Date Of Birth :" GridPane.rowIndex="2" GridPane.columnIndex="0" textFill="white" WrapText="true">
+						<font>
+							<Font name="HP Simplified Jpan Regular" size="20"/>
+						</font>
+					</Label>
+		
+		<DatePicker fx:id="d5" GridPane.rowIndex="2" GridPane.columnIndex="1">
+					 <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+                     </DatePicker>
+		
+					  <Label text="Enter Email ID :" GridPane.rowIndex="3" GridPane.columnIndex="0" textFill="white" WrapText="true">
+						<font>
+							<Font name="HP Simplified Jpan Regular" size="20"/>
+						</font>
+						      
+					</Label>
+					
+				 <TextField  GridPane.rowIndex="3" fx:id="signup_email" GridPane.columnIndex="1"  prefHeight="31.0" prefWidth="300.0" promptText="UserName" style="-fx-background-color:white; -fx-border-color:blue; -fx-border-width:0px 0px 5px 0px">
+            			<tooltip>
+								<Tooltip text="Please Enter Email Id in Small Alphabet"/>
+						</tooltip>
+					 <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+						
+			</TextField>
+			
+					  <Label text="Enter Password :"  GridPane.rowIndex="4" GridPane.columnIndex="0" textFill="white" WrapText="true">
+						<font>
+							<Font name="HP Simplified Jpan Regular" size="20"/>
+						</font>
+					</Label>
+			
+	            <PasswordField fx:id="signup_password" GridPane.rowIndex="4" GridPane.columnIndex="1" prefHeight="31.0" prefWidth="300.0" promptText="Enter Passward" style="-fx-background-color:white; -fx-border-color:blue; -fx-border-width:0px 0px 5px 0px">
+                  			<tooltip>
+								<Tooltip text="Password must contain Atleast 6 charcter with one special keyword and Number"/>
+							</tooltip>
+							 <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+					
+			</PasswordField>
+			
+					  <Label text="Confirm Password :" GridPane.rowIndex="5" GridPane.columnIndex="0" textFill="white" WrapText="true">
+						<font>
+							<Font name="HP Simplified Jpan Regular" size="20"/>
+						</font>
+					</Label>
+	            <PasswordField fx:id="signup_cPassword" GridPane.rowIndex="5" GridPane.columnIndex="1" prefHeight="31.0" prefWidth="300.0" promptText="Confirm Passward" style="-fx-background-color:white; -fx-border-color:blue; -fx-border-width:0px 0px 5px 0px">
+                  			<tooltip>
+								<Tooltip text="Password must contain Atleast 6 charcter with one special keyword and Number"/>
+							</tooltip>
+							 <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+					
+			</PasswordField>
+			
+			
+	      <Button fx:id="label1" onAction="#register" translateX="70" GridPane.rowIndex="7" GridPane.columnIndex="0" mnemonicParsing="Sign in" text="Sign up" onMouseEntered="#handMouseEnter1" onMouseExited="#handleMouseExit1" style="-fx-background-color: red; -fx-text-fill:white" >
+            <graphic>
+					<ImageView>
+	
+					</ImageView>
+					</graphic>
+					 <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+					
+			</Button>
+			   <Button fx:id="changePass_backBtn" onAction="#back" translateX="70" GridPane.rowIndex="7" GridPane.columnIndex="1" mnemonicParsing="false" onMouseEntered="#handMouseEnter5" onMouseExited="#handleMouseExit5" prefHeight="21.0" prefWidth="78.0" style="-fx-background-color: blue; -fx-text-fill:white" text="Back">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                  </Button>
+            					
+      </GridPane>
+       <AnchorPane prefHeight="151.0" prefWidth="325.0" styleClass="vbox_background_center5" stylesheets="@../Images/loginStle.css" />
+      
+      <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="1486.0" layoutY="4.0" onMousePressed="#onMousePressedClose" pickOnBounds="true" preserveRatio="true" x="10.0" y="10.0" AnchorPane.leftAnchor="1496.0" AnchorPane.topAnchor="14.0">
+         <image>
+            <Image url="@../images/icon_shutdown.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ImageView>
+   </children>
+</AnchorPane>

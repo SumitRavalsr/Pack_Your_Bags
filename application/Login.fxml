@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="login_form" prefHeight="815.0" prefWidth="1540.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DBUnits">
+   <children>
+   
+      <AnchorPane layoutX="933.0" prefHeight="815.0" prefWidth="607.0" styleClass="vbox_background_center" stylesheets="@../Images/loginStle.css" />
+      <AnchorPane layoutX="-7.0" prefHeight="815.0" prefWidth="934.0" style="-fx-background-color: #089696;">
+         <children>
+            <AnchorPane layoutX="176.0" layoutY="150.0" prefHeight="584.0" prefWidth="556.0" style="-fx-border-color: #FFFFFF;" />
+            <AnchorPane layoutX="376.0" layoutY="77.0" prefHeight="167.0" prefWidth="145.0" styleClass="vbox_background_right" stylesheets="@../Images/loginStle.css" />
+         </children>
+      </AnchorPane>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="800.0" prefWidth="725.0" stylesheets="@../Image/loginStle.css">
+   <children>
+      <Pane layoutX="242.0" layoutY="222.0" prefHeight="509.0" prefWidth="483.0">
+         <children>
+           	<Label WrapText="true" layoutX="140.0" layoutY="14.0" text="Login Here" textFill="white">
+				<font>
+					<Font name="HP Simplified Jpan Regular" size="29" />
+				</font>
+		</Label>
+    
+                        <TextField fx:id="login_username" layoutX="73.0" layoutY="68.0" prefHeight="36.0" prefWidth="352.0" promptText="UserName" style="-fx-background-color:white; -fx-border-color:blue; -fx-border-width:0px 0px 5px 0px">
+            			<tooltip>
+								<Tooltip text="UserName is your Email id" />
+						</tooltip>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+			</TextField>
+            <PasswordField fx:id="login_password" layoutX="73.0" layoutY="180.0" prefHeight="36.0" prefWidth="352.0" promptText="Passward" style="-fx-background-color:white; -fx-border-color:blue; -fx-border-width:0px 0px 5px 0px">
+                  			<tooltip>
+								<Tooltip text="Password example:Name@Birthday Year" />
+							</tooltip>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+			</PasswordField>
+			
+			<TextField fx:id="login_showPassword" layoutX="73.0" layoutY="180.0" prefHeight="36.0" prefWidth="352.0" promptText="Passward" style="-fx-background-color:white; -fx-border-color:blue; -fx-border-width:0px 0px 5px 0px" visible="false">
+                  			<tooltip>
+								<Tooltip text="Password example:Name@Birthday Year" />
+							</tooltip>
+                     <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                     </cursor>
+			</TextField>
+			
+                  	<Hyperlink fx:id="login_forgotPassword" onAction="#gofo" WrapText="true" layoutX="317.0" layoutY="222.0" text="Forgot Password?" textFill="white">
+				<font>
+					<Font name="HP Simplified Jpan Regular" size="12" />
+				</font>
+					</Hyperlink>
+    
+                       
+            <Button fx:id="label1" layoutX="110.0" layoutY="348.0" mnemonicParsing="false" onAction="#login" onMouseEntered="#handMouseEnter1" onMouseExited="#handleMouseExit1" style="-fx-background-color: red; -fx-text-fill:white" text="Login">
+            <graphic>
+					<ImageView>
+
+					</ImageView>
+					</graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+			</Button>		
+            <Button fx:id="Label" layoutX="290.0" onAction="#clear" layoutY="348.0" mnemonicParsing="false" onMouseEntered="#handMouseEnter" onMouseExited="#handleMouseExit" style="-fx-background-color: blue; -fx-text-fill:white" text="Clear">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+        
+                    <Label WrapText="true" layoutX="99.0" layoutY="455.0" text="Don't Have an Account!" textFill="white">
+				<font>
+					<Font name="HP Simplified Jpan Regular" size="15" />
+				</font>
+		</Label>
+		
+            	 <Button fx:id="label2" layoutX="255.0" onAction="#changeSignup" layoutY="450.0" mnemonicParsing="false" onMouseEntered="#handMouseEnter2" onMouseExited="#handleMouseExit2" style="-fx-background-color: black; -fx-text-fill:white" text="Signup">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                 </Button>
+                  <Button fx:id="sp" layoutX="374.0" layoutY="181.4" mnemonicParsing="false" onAction="#showPassword" prefHeight="15.0" prefWidth="28.0" style="-fx-background-color: #FFFFFF;">
+                  	<graphic>
+						<ImageView fitHeight="22" fitWidth="29.0">
+							<Image url="@../Images/pass.jpg" />
+						</ImageView>
+					</graphic>
+		             <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+          </children>
+      </Pane>
+            <AnchorPane layoutX="196.0" layoutY="269.0" prefHeight="72.0" prefWidth="72.0" styleClass="vbox_background_center7" stylesheets="@../Images/loginStle.css" />
+            <AnchorPane layoutX="192.0" layoutY="379.0" prefHeight="72.0" prefWidth="80.0" styleClass="vbox_background_center8" stylesheets="@../Images/loginStle.css" />
+   </children>
+</AnchorPane>
+      <AnchorPane prefHeight="151.0" prefWidth="325.0" styleClass="vbox_background_center5" stylesheets="@../Images/loginStle.css" />
+      
+      <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="1486.0" layoutY="4.0" onMousePressed="#onMousePressedClose" pickOnBounds="true" preserveRatio="true" x="10.0" y="10.0" AnchorPane.leftAnchor="1496.0" AnchorPane.topAnchor="14.0">
+         <image>
+            <Image url="@../images/icon_shutdown.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ImageView>
+   </children>
+</AnchorPane>
