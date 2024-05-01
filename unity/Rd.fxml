@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainBorderPane" prefHeight="800.0" prefWidth="1540.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unity.Ricoman">
+	<!-- TODO Add Nodes -->
+       <top>
+       <AnchorPane layoutX="367.0" layoutY="45.0" prefHeight="126.0" prefWidth="1540.0" styleClass="vbox_background_center5" stylesheets="@../Image/loginStle.css">
+        <children>
+            <Label layoutX="160.0" layoutY="14.0" prefHeight="54.0" prefWidth="287.0" text="Pack Your Bags " textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="36.0" />
+               </font>
+            </Label>		
+      		
+      	<Button layoutX="176.0" layoutY="84.0" onAction="#switchscene6" prefHeight="60.0" prefWidth="197.0" styleClass="vbox_background_center10" text="Dashboard" textFill="WHITE">
+                  <graphic>
+				<ImageView>
+					<Image url="@../Image/Home.gif" />
+				</ImageView>
+			</graphic>
+           
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+      
+            	</Button>
+      			
+            			<Button layoutX="355.0" layoutY="84.0" onAction="#switchscene8" prefHeight="60.0" prefWidth="206.0" styleClass="vbox_background_center10" text="Book Tickets" textFill="WHITE">
+                  
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                    <graphic>
+				<ImageView>
+					<Image url="@../Image/booking.png" />
+				</ImageView>
+			</graphic>
+           
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+      		
+            			</Button>
+      			
+            			
+      			<Button layoutX="561.0" layoutY="84.0" onAction="#switchscene7" prefHeight="60.0" prefWidth="245.0" styleClass="vbox_background_center10" text="Tourist Attraction" textFill="WHITE">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                  <graphic>
+				<ImageView>
+					<Image url="@../Image/touri.png" />
+				</ImageView>
+			</graphic>
+           
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+      		</Button>
+      		<Button contentDisplay="TOP" layoutX="806.0" layoutY="86.0" mnemonicParsing="false" onAction="#switchscene5" prefHeight="57.0" prefWidth="202.0" styleClass="vbox_background_center10" text="About us" textFill="WHITE">
+                                             	      <cursor>
+            							<Cursor fx:constant="HAND" />
+       							  </cursor>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+                  </Button>
+				<ImageView fitHeight="45.0" fitWidth="48.0" layoutX="806.0" layoutY="93.0">
+					<Image url="@../Image/aboutus.png" />
+				</ImageView>
+	    <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="1486.0" layoutY="4.0" onMousePressed="#onMousePressedClose" pickOnBounds="true" preserveRatio="true" x="10.0" y="10.0" AnchorPane.leftAnchor="1496.0" AnchorPane.topAnchor="14.0">
+         <image>
+            <Image url="@../images/icon_shutdown.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ImageView>
+  
+            </children>
+            </AnchorPane>
+       </top>
+   		
+		<left>
+
+   <AnchorPane prefHeight="698.0" prefWidth="1542.0" style="-fx-background-color: #d4d6fa;">
+ <TextArea editable="false" layoutX="160.0" layoutY="61.0" prefHeight="636.0" prefWidth="1134.0" style="-fx-border-radius: 20 20 20 20;" text="                                                                                      Statue Of Unity&#10;&#10;Brief History: The statue has been built as an ode to the Iron Man of India, Sardar Vallabhbhai Patel, the first home &#10;minister of independent India. He was responsible for uniting all 562 princely states of the country to build the &#10;Republic of India.&#10;&#10;About Place: October 31st, 2018, marked the inauguration of the world’s tallest statue – the Statue of Unity, against &#10;the backdrop of the dramatic Satpura and Vindhyachal hills in Kevadia, Gujarat. The 182-metre (600 feet aprox.)&#10;statue is dedicated to Sardar Vallabhbhai Patel, the architect of independent India. The colossal monument towers &#10;over River Narmada, a tribute to India ‘from the people of Gujarat’ to the leader who placed people’s welfare first. &#10;The Statue of Unity overlooks the vast surrounds and the river basin of the Narmada River and the sprawling Sardar &#10;Sarovar dam. It stands on the Sadhu Bet hillock, connected by a 300-metre bridge, which offers access from the &#10;mainland to the statue.&#10;&#10;As a part of an outreach programme for the project, the state government had asked Indian farmers to donate their &#10;used farming equipment to collect iron needed for the statue of Sardar Patel. Eventually, about 5000 tonnes of iron is &#10;believed to be collected. Details of the construction and history of the leader can be seen in an in-house museum, &#10;inside the statue.&#10;&#10;Laser Light and Sound Show: A Light and Sound show using laser technology projected on the Statue of Unity takes &#10;place every evening except Monday. The colourful laser lighting system is accompanied by an excellent narration of &#10;the history and life of Sardar Patel, his contribution to the Independence Movement and the unification of India as &#10;one nation.&#10;&#10;Tour of Valley of Flowers: The Valley of Flowers (also known as Bharat Van), is spread across 24 acres of land and is&#10; a haven for colorful flowering plants along the bank of river Narmada. The Valley of Flower began with 48,000 &#10;plants in 2016 and has now reached up to 22,00,000 plants. Besides the parks, several photo booths and selfie points &#10;have been developed to take back fond memories of the visit. The spot resembles a rainbow of flowers setup on earth.&#10;&#10;More than 300 types of flowers are grown in this garden. A right blend of ornamental flowers, trees, shrubs, herbs, &#10;climbers and creepers are planted along with various shades of foliage, which forms the green cover in this area&#10;&#10;Tour of Sardar Sarovar Dam: The Sardar Sarovar Dam is the third highest concrete dam (163 metres) in India after &#10;Bhakra (226 metres) in Himachal Pradesh and Lakhwar (192 metres) in Uttar Pradesh. In terms of volume of &#10;concrete involved for gravity dams, this dam is ranked as the second largest in the world with an aggregate volume&#10;of 6.82 million cubic metre; only after Grand Coulee Dam in the USA with a total volume of 8.0 million cubic metre &#10;being the largest.&#10;&#10;Nauka Vihar: Gujarat State Forest Development Corporation Ltd. (GSFDC) has initiated Boat ride in Dyke-3 known &#10;as Panchmuli Lake in Kevadia as a part of eco-tourism activity. Boating facility has been developed with the help&#10;of an external professional entity. Tourists coming to Kevadia are also enjoying the pristine nature with this boat &#10;ride. Total duration of each ride is for 45 minutes and in a day eight rides are operationalized by the operator. &#10;This ride takes you to the waters of dyke-4 as well as the entire water body is surrounded by lush green forests. &#10;Ecosystem around the lake is very rich in flora and fauna. This Boating facility has become a popular spot for the &#10;tourists. Panchmuli Lake is definitely a worthwhile visit with your family or friends. What sets this apart is its location&#10; -set in middle of a forest grove. So have fun and enjoy your time on the water at beautiful Panchmuli Lake!.&#10;&#10;Cactus Garden: The Cactus Garden is a unique botanical garden at the Statue of Unity site, created to exhibit a &#10;huge variety of Cacti and succulents, the true miracles of adaptation. The thought behind the development of &#10;the cactus garden is to provide an experience of the desert ecosystem in the midst of a landmass well &#10;entrenched in an aquatic surrounding. There are 6 lakh plants of 450 species spread across 25 acres of open &#10;land and inside the dome having an area of 836 square metres.&#10;&#10;Ekta Nursery: Ekta Nursery is being developed in the vicinity of the Statue of Unity, in line with the Hon'ble &#10;Prime Minister's vision that visitors, when they return, should take back with them seedlings as a plant of unity.&#10;Out of the one million plants targeted, 0.3 million plants are in 'ready to sell' stage and the other 0.7 million are &#10;likely to be ready soon.&#10;&#10;Children Nutrition Park: Children Nutrition Park is a Unique Theme Park envisioned and inspired by Hon’ble &#10;Prime Minister of India, Shri Narendra Modi, which has been developed, as a part of Kevadia Integrated &#10;Development. It provides a high quality entertainment and vital knowledge to the children on healthy eating&#10; habits and nutritional values based on the theme of “SAHI POSHAN DESH ROSHAN.” Entire park is designed &#10;and implemented for the benefits of the children and extensive use of state of the art technology is being &#10;made, which gives a fascinating experience to the children visiting the park.&#10;&#10;Dino Trail: Recent excavations in the Narmada valley, have revealed that Rajasaurus Narmadensis, an endemic&#10;species of dinosaur, was existing in the Narmada valley during Cretaceous period [also known as the ‘K-period’]. &#10;The K-period spanned between Jurassic period (145 million years ago) and Paleogene Period (66 million years ago).&#10;&#10;A replica of the endemic dinosaur with the distinctive horn is created and exhibited for the visitors. The replica is&#10;about three times the estimated–original size; it measures 75 feet in length and 25 feet in height. This offers the&#10;visitors a glimpse into the evolution of the planet and mankind and is an attempt to create public awareness &#10;regarding the wealth of ancient flora and fauna of this area.&#10;&#10;Jungle Safari: A state-of-art zoological park with unique collection of indigenous and exotic animals and birds&#10;from the various biogeographic regions of the world, is located at the picturesque hills near the tallest statue&#10;of the world “The Statue of Unity” and “The Sardar Sarovar Dam” at Kevadia. This zoo will take you through an&#10;adventurous and exciting trip of watching wildlife, enjoying scenic beauty of the hills and entertaining &#10;experiences of a lifetime.&#10;&#10;Viswa Van:  Vishwa Van is a Global Forest and offers a natural aesthetic beauty. Vishwa Van (a Global Forest)&#10;is home to herbs, shrubs and trees native to all 7 continents signifying the underlying theme of ‘Unity in &#10;Bio-diversity’ in global context as well. Vishwa Van symbolizes the life sustaining potion of forests in the context&#10;of all life forms in the planet. Vishwa Van has a diverse assemblage of flora representing every continent of the&#10;world. The vegetation is arranged in a way to resemble the natural forest of a particular zone.&#10;&#10;Best time to visit: The best time to visit the Statue of Unity is in the cooler months of October to February,&#10;though the site is open all through the year. The Statue of Unity opens at 8:00 AM and closes at 6:00 PM&#10;from Tuesday to Sunday. The Laser Light and Sound Show can be viewed from 7:30 PM onwards daily,&#10;except on Mondays.The Statue of Unity is closed on Mondays for maintenance work.&#10;&#10;&#10;">
+      <font>
+         <Font name="Ebrima" size="21.0" />
+      </font>
+            <effect>
+               <ColorAdjust brightness="0.22" contrast="0.42" hue="-0.75" saturation="0.12" />
+            </effect>
+   </TextArea>            <AnchorPane layoutX="160.0" layoutY="22.0" prefHeight="38.0" prefWidth="1136.0" style="-fx-background-color: #8e92e8; -fx-background-radius: 15 15 15 15;">
+                        <children>
+                                 <Button contentDisplay="TOP" layoutX="181.0" layoutY="4.0" mnemonicParsing="false" onAction="#switchscene2" prefHeight="26.0" prefWidth="82.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="Details" textFill="WHITE">
+                                                            	      <cursor>
+                           							<Cursor fx:constant="HAND" />
+                      							  </cursor>
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                                 </Button>
+                                 <Button contentDisplay="TOP" layoutX="90.0" layoutY="4.0" mnemonicParsing="false" onAction="#switchscene1" prefHeight="26.0" prefWidth="89.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="Images" textFill="WHITE">
+                                                            	      <cursor>
+                           							<Cursor fx:constant="HAND" />
+                      							  </cursor>
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                                 </Button>
+                                 <Button contentDisplay="TOP" layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#switchscene3" prefHeight="26.0" prefWidth="74.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="Home" textFill="#fff4f4">
+                                                            	      <cursor>
+                           							<Cursor fx:constant="HAND" />
+                      							  </cursor>
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                                 </Button>
+                     			
+                                             			
+                     			<Button contentDisplay="TOP" layoutX="265.0" layoutY="4.0" mnemonicParsing="false" onAction="#switchscene4" prefHeight="26.0" prefWidth="120.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="How to reach" textFill="#f4f2f2" wrapText="true">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                     			</Button>
+                        </children>
+                     </AnchorPane></AnchorPane>
+     </left>
+   
+            </BorderPane>
